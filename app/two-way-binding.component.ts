@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'two-way-binding', 
@@ -46,7 +46,7 @@ export class TwoWayBindingComponent {
                 surname: 'Doe'
             },
             address: {
-                street: 'Bleeker Street',
+                street: 'Lexington Avenue',
                 city: 'New York',
                 country: 'USA'
             }
