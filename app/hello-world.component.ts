@@ -5,10 +5,10 @@ import { Component } from '@angular/core';
     template: `
         <div>
             <label>Name:</label>
-            <input type="text" [(ngModel)]="name" placeholder="Enter a name here">
+            <input type="text" [(ngModel)]="name">
             <h1 [hidden]="!name">Hello {{name}}!</h1>
         </div>`
 })
 export class HelloWorldComponent {
-    private name: string = '';
+    private name: string = 'World';
 }
